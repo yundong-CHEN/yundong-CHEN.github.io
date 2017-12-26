@@ -1,3 +1,6 @@
+* {
+  outline: none !important;
+}
 /* normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif; /* 1 */
@@ -180,7 +183,7 @@ th {
   padding: 0;
 }
 ::selection {
-  background: #262a30;
+  background: #fc6423;
   color: #fff;
 }
 body {
@@ -1113,7 +1116,7 @@ pre .javascript .function {
   display: inline-block;
   padding: 0 40px;
   color: #222;
-  background: #222;
+  background: #fc6423;
   border-bottom: none;
 }
 .brand:hover {
@@ -1825,7 +1828,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #65a1f2;
+  background: #bfff36;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2913,6 +2916,19 @@ hr {
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
-* {
-  outline: none !important;
+code {
+  color: #ff7600;
+  background: #fbf7f8;
+  margin: 2px;
+}
+.highlight,
+pre {
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 3px;
+}
+.highlight,
+code,
+pre {
+  border: 1px solid #d6d6d6;
 }
