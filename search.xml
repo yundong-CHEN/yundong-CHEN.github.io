@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[多行文本溢出显示...]]></title>
+      <url>/2017/12/26/duo-hang-yi-chu/</url>
+      <content type="html"><![CDATA[<h5 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h5><p>三行显示文本，多出部分自动添加…，并自带”点击展开”，如何不用js实现？<br><a id="more"></a></p>
+<pre><code class="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;zh&quot;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;UTF-8&quot; /&gt;
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+        &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot; /&gt;
+        &lt;title&gt;Document&lt;/title&gt;
+        &lt;style type=&quot;text/css&quot;&gt;
+            .box {
+                width: 400px;
+                position: relative;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+
+            .box:after {
+                content: &quot;...展开全部&quot;;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                padding: 0 0 1px 0;
+                cursor: pointer;
+                background: #FFFFFF;
+                color: #3e7ac2;
+            }
+        &lt;/style&gt;
+    &lt;/head&gt;
+
+    &lt;body&gt;
+        &lt;div class=&quot;box&quot;&gt;
+            请教一个多行缩进的文本，如何使用css对超过3行的部分显示缩略号，并且在后面显示一个按钮？
+            请教一个多行缩进的文本，如何使用css对超过3行的部分显示缩略号，并且在后面显示一个按钮？
+            请教一个多行缩进的文本，如何使用css对超过3行的部分显示缩略号，并且在后面显示一个按钮？
+        &lt;/div&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+<!-- more -->]]></content>
+      
+        
+    </entry>
+    
+  
+  
+    
+  
+</search>
