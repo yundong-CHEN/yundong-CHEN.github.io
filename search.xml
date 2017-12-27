@@ -114,16 +114,15 @@
   
     
     <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags/index.html</url>
+      <title><![CDATA[timeline]]></title>
+      <url>/timeline/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
-      <title></title>
-      <url>/timeline/index.html</url>
-      <content type="html"><![CDATA[<p>​—<br> title: timeline<br> date:<br> layout: timeline<br>​—</p>
-]]></content>
+      <title><![CDATA[tags]]></title>
+      <url>/tags/index.html</url>
+      <content type="html"></content>
     </entry>
     
   
