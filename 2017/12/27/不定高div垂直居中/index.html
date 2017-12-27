@@ -47,7 +47,7 @@
     
     <title>
         
-            归档 | 
+            不定高div垂直居中 | 
         
         KI-WI
     </title>
@@ -57,8 +57,8 @@
     <link rel="icon" href="/img/favicon.png">
 
     <meta name="format-detection" content="telephone=no"/>
-    <meta name="description" itemprop="description" content="It is what it is.">
-    <meta name="keywords" content="">
+    <meta name="description" itemprop="description" content="问题描述：纯css实现不定高div垂直居中">
+    <meta name="keywords" content=",html,css">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -85,6 +85,9 @@
         <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?MKetZV3cUTfDxvMffaOezg==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
 
         
+            
+                <style id="prettify_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("prettify_css","/css/prettify.min.css?zp8STOU9v89XWFEnN+6YmQ==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+                <style id="prettify_theme"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("prettify_theme","/css/prettify/github-v2.min.css?AfzKxt++K+/lhZBlSjnxwg==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
             
         
 
@@ -221,7 +224,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="KI-WI">
-    <meta name="msapplication-starturl" content="http://yoursite.com/archives/">
+    <meta name="msapplication-starturl" content="http://yoursite.com/2017/12/27/不定高div垂直居中/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="KI-WI">
@@ -236,13 +239,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://yoursite.com/archives/">
+    <meta property="og:url" content="http://yoursite.com/2017/12/27/不定高div垂直居中/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="归档 | KI-WI">
+    <meta property="og:title" content="不定高div垂直居中 | KI-WI">
     <meta property="og:image" content="/img/favicon.png">
-    <meta property="og:description" content="It is what it is.">
-    
+    <meta property="og:description" content="问题描述：纯css实现不定高div垂直居中">
+    <meta property="og:article:tag" content="html,css"> 
 
+    
+        <meta property="article:published_time" content="Wed Dec 27 2017 15:35:46 GMT+0800">
+        <meta property="article:modified_time" content="Wed Dec 27 2017 15:49:38 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -250,13 +256,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/archives/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2017/12/27/不定高div垂直居中/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "http://yoursite.com/2017/12/27/不定高div垂直居中/index.html",
+    "headline": "不定高div垂直居中",
+    "datePublished": "Wed Dec 27 2017 15:35:46 GMT+0800",
+    "dateModified": "Wed Dec 27 2017 15:49:38 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "yundong.chen",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.png"
+        },
+        "description": "醉后不知天在水，满船清梦压星河"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "KI-WI",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",html,css",
+    "description": "问题描述：纯css实现不定高div垂直居中",
+}
+</script>
 
 
     
@@ -290,154 +326,288 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#问题描述："><span class="post-toc-number">1.</span> <span class="post-toc-text">问题描述：</span></a></li></ol>
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/12/27/不定高div垂直居中/">不定高div垂直居中</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            问题描述：纯css实现不定高div垂直居中
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/12/27/不定高div垂直居中/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="yundong.chen's avatar">
-            </div>
-            <div>
-                <strong>yundong.chen</strong>
-                <span>12月 27, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/12/26/duo-hang-yi-chu/">多行文本溢出显示...</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            原问题https://www.zhihu.com/question/264294455/answer/280307680
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/12/26/duo-hang-yi-chu/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="yundong.chen's avatar">
-            </div>
-            <div>
-                <strong>yundong.chen</strong>
-                <span>12月 26, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/html-css/">html,css</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                不定高div垂直居中
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>yundong.chen</strong>
+        <span>12月 27, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC1klEQVR42u3aQXLcMAwEwP3/p+MHbCLPEIqtJVsnV0Wm2PQBwYCvP0c+L2xsbGxsbGxsbOxHsl/x85eFgn99/zna4tv776u1e8bGxsbem91u4vrNBNwy5nvGxsbGPoH9r48l7+QrJO/n5TD/IjY2Njb2dfux1swkK7TFDxsbGxt7XsDmh5W3GdjY2NjYk8/kodL1ceQl7deyNGxsbOzHs/NG4jk//+h8GxsbG/vB7PaZxD35OCH/YrFzbGxs7E3ZeWFoA/02eJocVjQqxsbGxj6A/U0oE0dL7Qr55Z61IQQ2Njb23uy8/ZiMb9cK2GT8fEOohI2Njf2B7LyQrG0r32IyJG7fxMbGxt6VvXZpZn40a61OfiUIGxsb+2T2XZdp7mpd5sUMGxsb+zR220gUH/4PhTApw9jY2NgnsBcXiq/ytL973cC0AwZsbGzsvdltQzK5fJP/VjvcjSIwbGxs7E3ZaxcZ83FCXsbycGoxbMLGxsbelJ2XkwSWx0btgDkpbIt1GxsbG/vD2Xnz0DYYk0s/ecBUWLCxsbGPYU+KU87IkZO9YWNjY5/JTkKlydg1byfy8Gh0UwkbGxt7C3Yb2eQHl494k4Nbu8SDjY2NfQ47L05JmWkbiTbGypsQbGxs7L3Zd0Xzk3HC9Z9hsk9sbGzsE9hJbJTEOmtXf/KV29iryNKwsbGxN2Lf20jMR8V1bLRWwLCxsbE3Yif/6W9Hue3BFYyymGFjY2Ofxm4jpPkgdjLujVbAxsbG3pTdPu1Vm7YEJuVwbeiLjY2NvSv7FT9JkUhConmQtBhdYWNjY2/Nnl+LyceueTh110AaGxsb+xz2ZHybHGLyrbasJoUWGxsbG3s+xJ00Le11onoqgo2NjX0kOx/QJsh2VJA0OdjY2NhnsieYu6KiebsyuqmEjY2N/bHsvJFItpKH+Hlb0o4osLGxsc9hn/NgY2NjY2NjY2NjP+b5AsQQhcjYRy9EAAAAAElFTkSuQmCC">
+    
+</ul>
+
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/html-css/">html,css</a>
+    </ul>
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+    <!-- Leancloud Views -->
+        <a class="post_share-link" href="#">
+            <li class="mdl-menu__item">
+                <span id="/2017/12/27/不定高div垂直居中/" class="leancloud-views_num" data-flag-title="不定高div垂直居中">
+     &nbsp;浏览量
+</span>
+
+            </li>
+        </a>
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=不定高div垂直居中&url=http://yoursite.com/2017/12/27/不定高div垂直居中/index.html&pic=http://yoursite.com/img/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2017/12/27/不定高div垂直居中/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com/2017/12/27/不定高div垂直居中/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
     
 </div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <h5 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h5><p>纯css实现不定高div垂直居中<br><a id="more"></a></p>
+<pre><code class="html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head lang=&quot;en&quot;&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;style&gt;
+        .parent {
+            background-color: wheat;
+            position: relative;
+        }
+
+        .child {
+            transform: translateY(-50%);
+            border: solid 1px red;
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div class=&quot;parent&quot; style=&quot;height:600px;&quot;&gt;
+        &lt;div class=&quot;child&quot; style=&quot;height:200px;width:300px; left:5%&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;child&quot; style=&quot;height:300px;width:300px; left:60%;&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<!-- more -->
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 来必力 -->
+<div id="livere-comment">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC8zMjY5OS85MjYw">
+	<script type="text/ls-javascript" id="livere-comment-js">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+       if (typeof LivereTower === 'function') { return; }
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	</script>
+</div>
+</div>
+<style>
+    #livere-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/12/26/duo-hang-yi-chu/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -836,6 +1006,10 @@ It will not impact the appearance and can give developers a lot of support :)
 <!-- Import prettify js  -->
 
     
+        
+            <script>lsloader.load("prettify_js","/js/prettify.min.js?WN07fivHQSMKWy7BmHBB6w==", true)</script>
+        
+    
 
 
 
@@ -848,6 +1022,11 @@ It will not impact the appearance and can give developers a lot of support :)
     });
 
     
+        
+            $(function() {
+                $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto;');
+                prettyPrint();
+                })
         
     
     

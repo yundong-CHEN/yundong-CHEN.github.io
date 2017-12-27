@@ -3,9 +3,56 @@
   
     
     <entry>
+      <title><![CDATA[不定高div垂直居中]]></title>
+      <url>/2017/12/27/%E4%B8%8D%E5%AE%9A%E9%AB%98div%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/</url>
+      <content type="html"><![CDATA[<h5 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h5><p>纯css实现不定高div垂直居中<br><a id="more"></a></p>
+<pre><code class="html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head lang=&quot;en&quot;&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;style&gt;
+        .parent {
+            background-color: wheat;
+            position: relative;
+        }
+
+        .child {
+            transform: translateY(-50%);
+            border: solid 1px red;
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div class=&quot;parent&quot; style=&quot;height:600px;&quot;&gt;
+        &lt;div class=&quot;child&quot; style=&quot;height:200px;width:300px; left:5%&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;child&quot; style=&quot;height:300px;width:300px; left:60%;&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<!-- more -->]]></content>
+      
+        
+        <tags>
+            
+            <tag> html,css </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[多行文本溢出显示...]]></title>
       <url>/2017/12/26/duo-hang-yi-chu/</url>
-      <content type="html"><![CDATA[<h5 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h5><p>三行显示文本，多出部分自动添加…，并自带”点击展开”，如何不用js实现？<br><a id="more"></a></p>
+      <content type="html"><![CDATA[<h4 id="原问题"><a href="#原问题" class="headerlink" title="原问题"></a>原问题</h4><p><a href="https://www.zhihu.com/question/264294455/answer/280307680" target="_blank" rel="noopener">https://www.zhihu.com/question/264294455/answer/280307680</a></p>
+<a id="more"></a>
 <pre><code class="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;zh&quot;&gt;
     &lt;head&gt;
@@ -48,11 +95,36 @@
 </code></pre>
 <!-- more -->]]></content>
       
+        <categories>
+            
+            <category> html,css </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> html,css </tag>
+            
+        </tags>
         
     </entry>
     
   
   
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title></title>
+      <url>/timeline/index.html</url>
+      <content type="html"><![CDATA[<p>​—<br> title: timeline<br> date:<br> layout: timeline<br>​—</p>
+]]></content>
+    </entry>
     
   
 </search>
